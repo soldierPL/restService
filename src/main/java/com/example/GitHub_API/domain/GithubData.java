@@ -10,6 +10,8 @@ import org.springframework.stereotype.Component;
 @Data
 public class GithubData {
 
+
+    private OwnerData owner;
     private String full_name;
     private String description;
 
